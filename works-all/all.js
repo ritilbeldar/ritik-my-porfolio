@@ -1,4 +1,4 @@
-// media_nav
+// // media_nav
 // const right_bar = document.querySelector(".ri-align-left");
 // const media_nav = document.querySelector(".media-nav");
 // const close_bar = document.querySelector(".ri-close-line");
@@ -27,7 +27,7 @@ nav_work_button.addEventListener("click",function() {
 })
 
 
-
+// all-js
 
 $('.work-bottom-center').slick(
     {
@@ -44,14 +44,21 @@ $('.work-bottom-center').slick(
 
 
 
-$('.work-bottom-center1').slick(
-    {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1000,
-      }
-)
+// $('.work-bottom-center1').slick(
+//     {
+//         slidesToShow: 1,
+//         slidesToScroll: 1,
+//         autoplay: true,
+//         autoplaySpeed: 1000,
+//       }
+// )
+
+
+// by-mee-js
+
+
+
+
 
 
 // console.log("hye")

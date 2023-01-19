@@ -115,7 +115,7 @@ html,body{
     flex-direction: column;
     align-items: center;
     width: 70%;
-    background: url(/RITIK.jpeg);
+    background: url(/img/RITIK.jpeg);
     background-position: top left 350px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -581,7 +581,7 @@ html,body{
 }
 .beer{
     background: url(https://imgmedia.lbb.in/89972809_507869216542134_5183422242980712024_n_1590081749973.jpg);
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
