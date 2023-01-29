@@ -59,7 +59,6 @@ work_cloun_button.addEventListener("click",function() {
     work_cloun_button.style.borderBottom = "4px solid yellow";
     work_all_button.style.borderBottom = "none";
     work_by_me_button.style.borderBottom = "none";
-    // work_all_button.style.display = "none";
 })
 
 work_by_me_button.addEventListener("click",function() {
@@ -68,7 +67,7 @@ work_by_me_button.addEventListener("click",function() {
     work_all.style.transform = "translatex(-160%)";
     work_by_me_button.style.borderBottom = "4px solid yellow";
     work_cloun_button.style.borderBottom = "none";
-    // work_all_button.style.borderBottom = "none";
+    work_all_button.style.borderBottom = "none";
 })
 
 work_all_button.addEventListener("click",function() {
@@ -78,9 +77,6 @@ work_all_button.addEventListener("click",function() {
     work_all_button.style.borderBottom = "4px solid yellow";
     work_by_me_button.style.borderBottom = "none";
     work_cloun_button.style.borderBottom = "none";
-
-    // worl_bottom_cloun.style.transform = "translatex(0)";
-    // worl_bottom_all.style.transform = "translatex(-120%)";
 })
 
 

@@ -40,25 +40,24 @@ $('.work-bottom-center').slick(
 
 
 
-// cloun-js
+// contect-button
 
-
-
-// $('.work-bottom-center1').slick(
-//     {
-//         slidesToShow: 1,
-//         slidesToScroll: 1,
-//         autoplay: true,
-//         autoplaySpeed: 1000,
-//       }
-// )
-
-
-// by-mee-js
+const all_contect_button = document.querySelector(".all-contect-button");
+const all_hover_contect_button = document.querySelector("#all-hover-contect-button");
+const contect_close1 = document.querySelector("#contect-close1");
+const works_boder = document.querySelector("#works-boder");
 
 
 
 
+all_hover_contect_button.addEventListener("click",function() {
+    all_contect_button.style.transform = "translatex(0)";
+    all_hover_contect_button.style.borderBottom = "2px solid  yellowgreen";
+    works_boder.style.borderBottom = "none";
+})
 
-
-// console.log("hye")
+contect_close1.addEventListener("click",function() {
+    all_contect_button.style.transform = "translatex(500%)";
+    all_hover_contect_button.style.borderBottom = "none";
+    works_boder.style.borderBottom = "2px solid  yellowgreen";
+})

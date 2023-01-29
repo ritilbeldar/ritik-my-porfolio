@@ -237,7 +237,7 @@ html,body{
     z-index: 899;
 }
 .who-left-img-bg{
-    height: 26vmax;
+    height: 27vmax;
     width: 20.9vmax;
     background-color:  rgba(0, 0, 0, 0.874);
     position: absolute;
@@ -247,6 +247,7 @@ html,body{
     box-shadow: 1px 1px 3px;
 }
 .ritik-img{
+    height: 420px;
     overflow: hidden;
     box-shadow: 1px 1px  7px;
 }
@@ -689,256 +690,12 @@ html,body{
     font-size: 25px;
     color: wheat;
 }
-
-
-
-
-@media(max-width:451px){
-    .contect1-contect-content{
-        display: none;
-    }
-    .nav-bg-black{
-        display: none;
-    }
-    .nav{
-        height: 80vmax;
-    }
-    .nav-left{
-        height: 1px;
-        margin-left: -10%;
-        width: 1px;
-        background-color: transparent;
-    }
-    .nav-left h2{
-        font-size: 15px;
-        position: absolute;
-        right: 5%;
-    }
-    .name h3{
-        font-size: 20px;
-    }
-    .name{
-        margin-top: 50%;
-        margin-left: -5%;
-    }
-    .name h1{
-        font-size: 25px;
-        margin-top: 2%;
-        width: 50vmax;
-        top: 20%;
-    }
-    .name button{
-        font-size: 15px;
-        padding: 10px 20px;
-        margin-top: 2%;
-    }
-    .dot{
-        display: none;
-    }
-    .nav-right ul{
-        display: none;
-    }
-    .nav-right-bg-black{
-        height: 83.8vmax;
-        top: 0;
-    }
-    .nav-right{
-        width: 100vmax;
-        margin-top: -5.1%;
-        background-position: center left -10px;
-    }
-    .ri-align-left{
-        display: initial;
-        position: absolute;
-        top: 2%;
-        left: 2%;
-        z-index: 999;
-        font-size: 22px;
-    }
-    .media-nav{
-        position: absolute;
-        display: initial;
-        transition: .5s;
-        transform: translatex(-325px);
-        top: 1%;
-        left: 1%;
-        padding: 50px 70px;
-        background-color: rgba(255, 255, 255, 0.347);
-        border-radius: 20px;
-        border-top-left-radius: 0;
-        z-index: 999;
-    }
-    .media-nav ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-
-    }
-    .media-nav a{
-        text-decoration: none;
-        color: white;
-        font-size: 18px;
-        color: black;
-        font-weight: 600;
-    }
-    .yello-gola{
-        top: 102%;
-        left: 55%;
-        
-    }
-    .yello-gola1{
-        width: 2vmax;
-        height: 2vmax;
-    }
-    .yello-gola2{
-        width: 4vmax;
-        height: 4vmax;
-    }
-    .ri-close-line{
-        color: wheat;
-        position: absolute;
-        top: 2%;
-        left: 2%;
-        font-size: 25px;
-    }
-    .who{
-        flex-direction: column;
-        align-items: center;
-        border-top: .1px solid;
-        padding: 150px 0 0 0 ;
-    }
-    .who-left{
-        width: 300px;
-        margin-left: 8%;
-    }
-    .who-left img{
-        margin-left: -10%;
-    }
-    .who-left-img-bg{
-        height: 422px;
-        width: 300px;
-        top: 97%;
-        left: 8%;
-    }
-    .name-bg-color{
-        width: 22vmax;
-    }
-    .wev{
-        display: none;
-    }
-    .who-right{
-        padding: 50px 50px 50px 50px;
-    }
-    .hello h4{
-        padding: 0;
-    }
-    .who-right-bottom p{
-        width: 50vmax;
-    }
-    .work-top ul{
-        gap: 10px;
-    }
-    .work-top ul a{
-        font-size: 15px;
-    }
-    .worl-bottom-cloun,.worl-bottom-by-me{
-        margin-top: 22%;
-        margin-left: 8%;
-        
-    }
-    .all-bottom0{
-        flex-direction: column;
-    }
-    .work-bottom-mian{
-        margin-top: 15%;
-    }
-    .work-bottom-mian1{
-        margin-top: 26%;
-        transform: translate(120%);
-    }
-    .work-bottom-mian2{
-        margin-top: 26%;
-        transform: translate(120%);
-    }
-    .work-bottom1,.work-bottom2,.work-bottom3{
-        width: 60vmax;
-    }
-    .all-project{
-        height: 30vmax;
-        width: 20vmax;
-    }
-    .charted-text{
-        transform: translatey(290%);
-    }
-    .charted-text h2{
-        font-size: 10px;
-    }
-    .charted-text a{
-        font-size: 10px;
-    }
-    .charted:hover .charted-text{
-        transform: translatey(200%);
-    }
-    .jio:hover  .charted-text{
-            transform: translatey(200%);
-    }
-    .poco:hover .charted-text{
-            transform: translatey(200%);
-    }
-    .ola:hover .charted-text{
-            transform: translatey(200%);
-    }
-    .swiggy:hover .charted-text{
-            transform: translatey(200%);
-    }
-    .unacademy:hover .charted-text{
-            transform: translatey(200%);
-    }
-    .redbus:hover .charted-text{
-        transform: translatey(200%);
-    }
-    .whatsapp:hover .charted-text{
-             transform: translatey(100%);
-    }
-    .digital:hover .charted-text{
-            transform: translatey(200%);
-    }
-    .football:hover .charted-text{
-            transform: translatey(200%);
-    }
-    .ev:hover .charted-text{
-            transform: translatey(200%);
-    }
-    .beer:hover .charted-text{
-            transform: translatey(200%);
-    }
-    .rakt:hover .charted-text{
-        transform: translatey(200%);
-    }
-    .ckd:hover .charted-text{
-            transform: translatey(200%);
-    }
-    .developer:hover .charted-text{
-            transform: translatey(200%);
-    }.designer:hover .charted-text{
-            transform: translatey(200%);
-    }
-    .last{
-        margin-top: 20%;
-        align-items: center;
-        padding: 0 50px 0 0 ;
-    }
-    .last h3{
-        font-size: 15px;
-        padding: 0 110px 0 0 ;
-    }
-    .last h4{
-        font-size: 10px;
-        margin-left: 0;
-    }
-    .last span{
-        font-size: 20px;
-    }
+.down{
+    display: none;
 }
+
+
+
+
+
 
