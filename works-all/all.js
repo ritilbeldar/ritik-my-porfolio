@@ -57,7 +57,7 @@ all_hover_contect_button.addEventListener("click",function() {
 })
 
 contect_close1.addEventListener("click",function() {
-    all_contect_button.style.transform = "translatex(500%)";
+    all_contect_button.style.transform = "translatex(550%)";
     all_hover_contect_button.style.borderBottom = "none";
     works_boder.style.borderBottom = "2px solid  yellowgreen";
 })

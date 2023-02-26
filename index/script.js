@@ -31,7 +31,7 @@ contect1.addEventListener("click",function() {
     home_border.style.borderBottom = "none";
 })
 contect_close.addEventListener("click",function() {
-    contect11.style.transform = "translatex(400%)";
+    contect11.style.transform = "translatex(420%)";
     contect1.style.borderBottom = "none";
     home_border.style.borderBottom = "2px solid yellowgreen";
 })

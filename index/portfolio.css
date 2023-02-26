@@ -4,6 +4,9 @@
 /* my phone media */
 
 @media(max-width:400px){
+    body{
+        overflow-x: hidden;
+    }
     .contect1-contect-content{
         display: none;
     }
@@ -191,7 +194,7 @@
         width: 20vmax;
     }
     .charted-text{
-        transform: translatey(290%);
+        transform: translatey(370%);
     }
     .charted-text h2{
         font-size: 10px;
@@ -200,51 +203,51 @@
         font-size: 10px;
     }
     .charted:hover .charted-text{
-        transform: translatey(200%);
+        transform: translatey(280%);
     }
     .jio:hover  .charted-text{
-            transform: translatey(200%);
+            transform: translatey(280%);
     }
     .poco:hover .charted-text{
-            transform: translatey(200%);
+            transform: translatey(280%);
     }
     .ola:hover .charted-text{
-            transform: translatey(200%);
+            transform: translatey(280%);
     }
     .swiggy:hover .charted-text{
-            transform: translatey(200%);
+            transform: translatey(280%);
     }
     .unacademy:hover .charted-text{
-            transform: translatey(200%);
+            transform: translatey(280%);
     }
     .redbus:hover .charted-text{
-        transform: translatey(200%);
+        transform: translatey(280%);
     }
     .whatsapp:hover .charted-text{
-             transform: translatey(200%);
+             transform: translatey(280%);
     }
     .digital:hover .charted-text{
-            transform: translatey(200%);
+            transform: translatey(280%);
     }
     .football:hover .charted-text{
-            transform: translatey(200%);
+            transform: translatey(280%);
     }
     .ev:hover .charted-text{
-            transform: translatey(200%);
+            transform: translatey(280%);
     }
     .beer:hover .charted-text{
-            transform: translatey(200%);
+            transform: translatey(280%);
     }
     .rakt:hover .charted-text{
-        transform: translatey(200%);
+        transform: translatey(280%);
     }
     .ckd:hover .charted-text{
-            transform: translatey(200%);
+            transform: translatey(280%);
     }
     .developer:hover .charted-text{
-            transform: translatey(200%);
+            transform: translatey(280%);
     }.designer:hover .charted-text{
-            transform: translatey(200%);
+            transform: translatey(280%);
     }
     .last{
         margin-top: 20%;
